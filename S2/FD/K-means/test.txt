@@ -1,0 +1,22 @@
+
+X1 = [0, 3]
+X2 = [0, 0]
+
+M1 = [2, 1]
+M2 = [3.5, 1]
+
+D(X1, M1) = [|0-2| + |3 -1|] = 4
+D(X1, M2) = [|0-3.5| + |3 -1|] = 5.5
+D(X2, M1) = [|0-2| + |0-1|] = 3
+
+D(C1)
+
+- if the distance enternal is small than the previous one (distance(Ck))
+then the new clustering is giving a better result.
+
+- if the distance external is bigger than the previous one (distance(Ck, Ck+1))
+then the new clustering is giving better then the one before
+
+""iterative clustering"" work on iterative
+
+idea. think about minimal distance on how to performe minimal clustering
